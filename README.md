@@ -8,11 +8,11 @@ twitter.com/@textbox37
 Bash scripts daemons to update domains provided by freedns.fraid.org
 
 > This daemon can run locally or by systemd.
-> freednsctl.sh controls the daemon script, args = start|stop|status|restart
-> Example conf file provided under etc/freedns.conf
-> ~/.freednsrc will take precedence if run locally
-> usr/local/bin/freedns-mkconf.sh - sample script to help create initial .conf
-> Systemd service file provided under usr/lib/systemd/system/freedns.service
+> freednsctl.sh controls the daemon script, args = start|stop|status|restart.
+> Example conf file provided under etc/freedns.conf.
+> ~/.freednsrc will take precedence if run locally.
+> usr/local/bin/freedns-mkconf.sh - sample script to help create initial .conf.
+> Systemd service file provided under usr/lib/systemd/system/freedns.service.
 
 
 Dependencies
