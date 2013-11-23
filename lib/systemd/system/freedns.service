@@ -1,0 +1,13 @@
+[Unit]
+Description=FreeDNS updater
+After=syslog.target network.target
+
+[Service]
+Type=simple
+PIDFile=/tmp/freedns.pid
+ExecStart=/usr/local/bin/freednsctl.sh start
+ExecReload=/usr/local/bin/freednsctl.sh restart
+ExecStop=/usr/local/bin/freednsctl.sh stop
+
+[Install]
+WantedBy=multi-user.target
